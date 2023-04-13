@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">    
+    
+    <title>Formulário do Usuário</title>
+</head>
+<body>
+    <main class="container"> 
+        <div class="card">
+            <div id="dados">
+                <img id="perfil" src="src/images/camera.png" alt="Imagem Perfil">
+                <p class="negrito" id="nome">Seu Nome</p>
+                <p class="negrito" id="idade">Sua Idade</p>
+                <p class="negrito" id="localizacao">Sua Localização</p>
+                <p class="bio" id="bio">
+                    Conte mais sobre você! =D
+                </p>
+            </div>
+            
+            <input type="button" id="atualizar-infos" value="Atualizar informações">
+            
+            <section class="section-form">
+            <form id="formulario" method="put" action="index.html" enctype="multipart/form-data">
+
+                <input type="file" name="imagemperfil" id="botao-img" accept="image/*" re>
+                <br>
+
+                <input type="text" name="nome" id="input-nome" placeholder="Digite seu Nome" required>
+                <br>
+    
+                <input type="text" name="idade" id="input-idade" placeholder="Digite sua Idade" required>
+                <br>  
+    
+                <input type="text" name="localizacao" id="input-localizacao" placeholder="Digite sua Localização" required>
+                <br>
+    
+                <textarea name="bio" id="bio" cols="30" rows="7" maxlength="150" placeholder="Digite sua Biografia" required></textarea>
+                <br>      
+                
+                
+                <input type="submit" value="Atualizar">
+            </form> 
+        </section>        
+        </div>              
+            
+    </main>
+    
+    <script type="text/javascript" src="src/js/script.js"></script>  
+</body>
+</html>

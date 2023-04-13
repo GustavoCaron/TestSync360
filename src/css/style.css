@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #1d1d1d;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;    
+}
+
+.card {
+    background-color: #DADDD8;
+    display: flex;
+    align-items: center;    
+    flex-direction: column;
+    width: 375px;    
+    border-radius: 10px;            
+    border: 3px solid grey;
+}
+
+#dados { 
+    display: flex;   
+    align-items: center;    
+    flex-direction: column;
+    text-align: center;  
+    padding-top: 15px;
+}
+
+
+#perfil {
+    border-radius: 50%;
+    border: 3px solid grey;
+    margin-bottom: 15px;
+    max-width: 220px;
+    max-height: 220px;
+    min-width: 220px;
+    min-height: 220px;
+}
+
+.card .bio {
+    display: flex;
+    text-align: center; 
+    padding-top: 15px;
+    width: 220px;
+    height: 200px;
+    max-width: 320px;
+}
+
+#atualizar-infos {
+    display: block;
+    background-color: #1d1d1d;
+    color: #DADDD8;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;  
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid grey ;
+    cursor: pointer;
+    transform: translateY(50%);
+}
+
+#atualizar-infos:hover,
+#formulario #botao-img:hover,
+#formulario input[type="submit"]:hover,
+#formulario input[type="button"]:hover
+{
+    background-color:#DADDD8;
+    color: #1d1d1d;
+    border: 3px solid grey;
+    font-weight: 800;
+}
+
+.card .negrito {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;    
+    font-size: 20px;
+}
+
+#formulario {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: #DADDD8;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+
+
+#formulario input[type="submit"],
+#botao-img {
+    background-color: #1d1d1d;
+    color: #DADDD8;
+    border-radius: 10px;
+    padding: 5px;    
+    margin: 5px;
+    border: 3px solid grey ;
+    cursor: pointer;
+}
+
+#formulario input[type="text"]{
+    margin-top: 10px;
+    width: 210px;
+}
+
+
+#formulario textarea {
+    resize: none;
+    margin-top: 10px;
+}
+
+#formulario input[type="text"],
+#formulario input[type="submit"],
+#formulario textarea, 
+#formulario input[type="button"] 
+{
+    font-family: 'Poppins', sans-serif;    
+}
+
+
