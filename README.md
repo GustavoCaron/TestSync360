@@ -10,6 +10,7 @@ Projeto construído para o teste desafio da Empresa Sync360
 
 - HTML
 - CSS
+- JAVASCRIPT
 - GIT e Github
 
 ## Contato
