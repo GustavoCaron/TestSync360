@@ -1,4 +1,4 @@
-# TestSync360
+# Sync360
 
 ![preview](./src/images/DesafioSync360.jpg)
 
