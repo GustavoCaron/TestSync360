@@ -1,6 +1,6 @@
 # TestSync360
 
-![preview](./.src/.images/DesafioSync360.jpg)
+![preview](./src/images/DesafioSync360.jpg)
 
 Projeto construído para o teste desafio da Empresa Sync360
 
